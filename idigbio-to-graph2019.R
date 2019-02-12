@@ -30,8 +30,6 @@ bombus %>%
 bombus <- add_count(bombus, country)
 
 
-
-
 #look at the first few rows of dataframe bombus
 head(bombus)
 View(bombus)
