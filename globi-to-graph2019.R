@@ -7,7 +7,7 @@
 #create simple network with the data
 
 #install packages if you dont have them
-install.packages("rglobi")
+#install.packages("rglobi")
 
 
 #load packages

@@ -6,12 +6,10 @@
 #create simple graph with the data
 
 #install packages if you dont have them
-install.packages("devtools")
-install.packages("ridigbio")
-install.packages("ggplot2")
-install.packages("dplyr")
-install.packages("tidyr")
-
+#install.packages("ridigbio")
+#install.packages("ggplot2")
+#install.packages("dplyr")
+#install.packages("tidyr")
 
 #load packages
 library(devtools)
@@ -19,6 +17,7 @@ library(ridigbio)
 library(ggplot2)
 library(dplyr)
 library(tidyr)
+
 
 #set working directory
 setwd("~/Documents/r-api-examples")
