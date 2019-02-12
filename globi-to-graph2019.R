@@ -36,13 +36,17 @@ head(bsk)
 #describe network
 bsk.network<-graph.data.frame(bsk, directed=F)
 
-V(bsk.network) #prints the list of vertices
-E(bsk.network) #prints the list of edges
-degree(bsk.network) #print the number of edges per vertex (relationships per organisms)
+#list the vertices
+V(bsk.network)
+
+#list the edges
+E(bsk.network)
 
 #plot the graph
-plot(bsk.network)
+plot(bsk.network,vertex.size=5, vertex.label=NA)
 
+#help igraph
+help(igraph)
 
 
 
