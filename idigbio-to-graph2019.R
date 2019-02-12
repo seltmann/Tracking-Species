@@ -8,14 +8,17 @@
 #install packages if you dont have them
 install.packages("devtools")
 install.packages("ridigbio")
+install.packages("ggplot2")
+install.packages("dplyr")
 install.packages("tidyr")
+
 
 #load packages
 library(devtools)
 library(ridigbio)
 library(ggplot2)
-library("dplyr")
-library("tidyr")
+library(dplyr)
+library(tidyr)
 
 #set working directory
 setwd("~/Documents/r-api-examples")
@@ -48,7 +51,7 @@ g + geom_density(aes(fill=factor(log10(n))), alpha=0.8) +
   theme(legend.position="none")
 
 
-x##helpful information below about the api
+##helpful information below about the api
 ## information below about the idigbio api and ridigbio
 #https://github.com/iDigBio/ridigbio
 
