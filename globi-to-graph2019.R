@@ -1,5 +1,5 @@
-# Katja Seltmann, 2019
-# M259 Visualizing Information
+# Katja Seltmann, 2019 - 2021
+# Tracking Species
 
 #download data from globi using r API
 #https://www.globalbioticinteractions.org
@@ -31,7 +31,7 @@ nrow(bumblebeesInteractions)
 bsk <- data.frame(bumblebeesInteractions$source_taxon_name,bumblebeesInteractions$target_taxon_name)
 
 #look at data
-head(bsk)
+#head(bsk)
 
 #describe network
 bsk.network<-graph.data.frame(bsk, directed=F)

@@ -1,12 +1,12 @@
-# Katja Seltmann, 2019
-# M259 Visualizing Information
+# Katja Seltmann, 2019 - 2021
+# Tracking Species
 
 #download data from iDigBio using r API
 #https://www.idigbio.org/portal
 #create simple graph with the data
 
 #install packages if you dont have them
-#install.packages("ridigbio")
+install.packages("ridigbio")
 #install.packages("ggplot2")
 #install.packages("dplyr")
 #install.packages("tidyr")
@@ -33,8 +33,8 @@ bombus <- add_count(bombus, country)
 
 
 #look at the first few rows of dataframe bombus
-head(bombus)
-View(bombus)
+#head(bombus)
+#View(bombus)
 
 #graph the data using ggplot
 theme_set(theme_classic())
